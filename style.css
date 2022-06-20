@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.converter{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3.4rem;
+    background-color: rgb(114, 107, 107);
+    box-shadow: 20px 30px 20px black;
+}
+.converter h2{
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+#input, #result{
+    border: 1px solid black;
+    margin-left:12px;
+    margin-bottom: 12px;
+    width: 11rem;
+    text-align: center;
+    font-size: 22px;
+}
+
+#inputType, #resultType{
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 100px;
+    padding: 9px;
+    font-size: 17px;
+}
+
+#resultType{
+    margin-left: 14%;
+}
