@@ -26,6 +26,7 @@
     width: 11rem;
     text-align: center;
     font-size: 22px;
+    font-style: italic;
 }
 
 #inputType, #resultType{
